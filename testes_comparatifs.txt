@@ -1,0 +1,14 @@
+3) Les tests comparatifs
+
+Soit L={6,4,3,1} un ensemble de pièces triées par ordre décroissant et soit S = 14 la somme à rendre.
+Après avoir tester les deux algorithmes, on remarque que :
+L'algorithme glouton rend 4 pièces dont 2 de type 6 et 2 de type 4. 
+L'algorithme de programmation dynamique rend 3 pièces dont 1 de type 6 et 2 de type 4.
+On conclut que l'algorithme glouton n'est pas toujours optiamle.
+
+Pour L={50, 20,10,5,1} et S=83, on remarque que :
+L'algorithme glouton rend 6 pièces dont 1 de type 50, 1 de type 20, 1 de type 10 et 3 de type 1. 
+L'algorithme de programmation dynamique n'affiche pas les bonnes resultats car il faut remplacer les uint8_t par uint32_t .
+
+
+
